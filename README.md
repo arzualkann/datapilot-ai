@@ -1,4 +1,5 @@
 # DataPilot AI
+<img width="2054" height="1604" alt="image" src="https://github.com/user-attachments/assets/4c1b4169-7c69-4949-a81c-556b87f3bc6c" />
 
 DataPilot AI is a small local MVP that turns a natural-language question into read-only SQL, runs that SQL against PostgreSQL, and returns both the result rows and a short Turkish explanation.
 
