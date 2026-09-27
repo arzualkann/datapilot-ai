@@ -1,0 +1,37 @@
+# Secrets and local environment files
+.env
+**/.env
+**/.env.local
+*.pem
+*.p12
+*.key
+credentials.json
+service-account*.json
+
+# Python
+.venv/
+backend/.venv/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / Next.js
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Local PostgreSQL data directories if copied into the repo
+postgres-data/
+pgdata/
+**/pgsql/data/
+
+# OS / editor / logs
+.DS_Store
+Thumbs.db
+.idea/
+*.log
